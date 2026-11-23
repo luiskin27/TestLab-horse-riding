@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tours',
+    'captcha',
 ]
 
 MIDDLEWARE = [
@@ -126,3 +127,10 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'profile'
+
+# Сохранение результатов всех тестов Django в файл test_results.docx
+TEST_RUNNER = 'tours.test_runner.WordExportTestRunner'

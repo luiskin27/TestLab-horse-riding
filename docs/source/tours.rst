@@ -28,6 +28,14 @@ tours.apps module
    :show-inheritance:
    :undoc-members:
 
+tours.forms module
+------------------
+
+.. automodule:: tours.forms
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
 tours.models module
 -------------------
 
@@ -36,10 +44,26 @@ tours.models module
    :show-inheritance:
    :undoc-members:
 
+tours.test\_runner module
+-------------------------
+
+.. automodule:: tours.test_runner
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
 tours.tests module
 ------------------
 
 .. automodule:: tours.tests
+   :members:
+   :show-inheritance:
+   :undoc-members:
+
+tours.urls module
+-----------------
+
+.. automodule:: tours.urls
    :members:
    :show-inheritance:
    :undoc-members:
